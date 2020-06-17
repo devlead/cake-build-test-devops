@@ -25,11 +25,11 @@ steps:
     custom: 'tool'
     arguments: 'restore'
 
-- task: DotNetCoreCLI@2
-  inputs:
-    command: 'custom'
-    custom: 'cake'
-    arguments: 'build.cake'
+#- task: DotNetCoreCLI@2
+#  inputs:
+#    command: 'custom'
+#    custom: 'cake'
+#    arguments: 'build.cake'
     
 - task: PowerShell@2
   inputs:
