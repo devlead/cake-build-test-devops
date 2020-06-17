@@ -21,8 +21,9 @@ steps:
 
 - task: DotNetCoreCLI@2
   inputs:
-    command: 'restore'
-    feedsToUse: 'select'
+    command: 'custom'
+    custom: 'tool'
+    arguments: 'restore'
 
 - task: DotNetCoreCLI@2
   inputs:
