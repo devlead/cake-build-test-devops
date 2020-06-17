@@ -27,8 +27,8 @@ Teardown(ctx =>
 
 Task("Default")
 .Does(() => {
-   var foo = 1/0;
    Information("Hello Cake!");
+   throw new Exception("Boom!");
 });
 
 RunTarget(target);

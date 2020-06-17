@@ -33,4 +33,8 @@ steps:
     
 - task: PowerShell@2
   inputs:
-    filePath: 'test1.ps1'
+    filePath: 'build-1.ps1'
+
+- task: PowerShell@2
+  inputs:
+    filePath: 'build-2.ps1'
