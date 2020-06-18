@@ -33,4 +33,5 @@ steps:
     
 - task: PowerShell@2
   inputs:
+    pwsh: true
     filePath: 'build.ps1'
